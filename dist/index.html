@@ -2,10 +2,10 @@
 <html>
   <head>
 
-      <!-- Blog Title -->
-      <title>Blog Template by Code Matra</title>
+      <!-- Portfolio Title -->
+      <title>Portfolio Template by Code Matra</title>
 
-      <!-- Blog Meta Tags -->
+      <!-- Portfolio Meta Tags -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       
@@ -13,248 +13,183 @@
       <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
 
       <!-- Stylesheets -->
-      <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      <link rel="stylesheet" href="css/cm-style.css" type="text/css" /> 
+      <link rel="stylesheet" href="css/main.min.css" type="text/css" />
+      <link rel="stylesheet" href="css/style.css" type="text/css" /> 
         
     </head>
   <body>   
     <!-- 
-      Template Name: CM Blog Template
-      Template URL: https://codematra.com/templates/cm-blog-bootstrap/
+      Template Name: CM Portfolio Template
+      Template URL: https://codematra.com/templates/free-bootstrap-5-portfolio-template
       Template Version: 1.0
       Designed By: Shrikant Yadav | https://shrikant9907.github.io/portfolio/ 
       License: MIT License
      -->
 
      <!-- Header Start -->
-    <header class="blog-header">
+    <header class="portfolio-header fixed-top bg-white shadow-sm">
       <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <a class="navbar-brand fs-2 fw-bold text-danger" href="#">Code Matra</a>
+        <nav class="navbar navbar-expand-lg navbar-light text-uppercase">
+          <div class="container-fluid px-0">
+            <a class="navbar-brand fs-2 fw-bold text-primary" href="#">Code Matra</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Blog</a>
+                  <a class="nav-link" href="#services">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Contact Us</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Categories
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Item 1</a></li>
-                    <li><a class="dropdown-item" href="#">Item 2</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Item 3</a></li>
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="#blog">Blog</a>
                 </li>
-                <!-- <li class="nav-item">
-                  <a class="nav-link disabled">Disabled</a>
-                </li> -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
               </ul>
-              <form class="d-flex">
-                <input class="form-control rounded-0 me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-danger rounded-0" type="submit">Search</button>
-              </form>
             </div>
           </div>
         </nav>
       </div>
-    </header>
+    </header> 
 
-    <!-- Page Main Section -->
-    <section class="jumbotron py-5 bg-light text-dark ">
+    <!-- Banner Section Start -->
+    <section id="banner" class="text-dark bg-light border-bottom w-100 py-5 vh-100 d-flex justify-content-center align-items-center">
       <div class="container">
         <div class="row">
-    
-          <!-- Featured Posts Section Start -->
-          <div class="col-12 col-xl-8 blog-posts">
-            <div class="row">
-
-              <div class="col mb-3 text-start">
-                <h2 class='text-uppercase fw-bold text-danger'>Featured Post</h2>
-              </div>
-            
-              <!-- Featured Post -->
-              <div class="col-12"> 
-                <div data-aos="fade-up" class="card shadow-sm border-0 rounded-0 mb-4"> 
-                  <a href="#"><img class="card-img-top rounded-0" src="images/placeholder_500x300.jpg" alt="Card image cap"></a>
-                  <div class="card-body">
-                    <h5 class="card-title text-danger">Lorem ipsum dolor sit amet consectetur </h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit.</p>
-                    <p class="card-text d-flex justify-content-between"><small class="text-muted">Posted at 3 mins ago</small> <small class="text-muted">Posted By Shrikant</small></p>
-                    <a href="#" class="btn btn-danger px-4 d-inline-block rounded-pill">View More</a>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Recent Posts Start -->
-              <h2 class='text-uppercase mb-3 fw-bold text-danger'>Recent Posts</h2>
-              <div class="col-12"> 
-
-                <!-- Article Start -->
-                <div data-aos="fade-up" class="card shadow-sm border-0 rounded-0 mb-4 rounded-0"> 
-                  <div class="row g-0">
-                    <div class="col-md-5 h-100 bg-light align-items-center justify-content-center d-flex">
-                      <a href="#"><img class="rounded-0 h-100 img-fluid" src="images/placeholder_500x300.jpg" alt="Card image cap"></a>
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body text-start">
-                        <h5 class="card-title text-danger mb-1">Lorem ipsum dolor sit amet consectetur </h5>
-                        <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="card-text d-flex justify-content-between"><small class="text-muted">Posted at 3 mins ago</small> <small class="text-muted">Posted By Shrikant</small></p>
-                        <a href="#" class="btn btn-danger btn-sm px-4 d-inline-block rounded-pill">View More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                <!-- Article Start -->
-                <div data-aos="fade-up" class="card shadow-sm border-0 rounded-0 mb-4 rounded-0"> 
-                  <div class="row g-0">
-                    <div class="col-md-5 h-100 bg-light align-items-center justify-content-center d-flex">
-                      <a href="#"><img class="rounded-0 h-100 img-fluid" src="images/placeholder_500x300.jpg" alt="Card image cap"></a>
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body text-start">
-                        <h5 class="card-title text-danger mb-1">Lorem ipsum dolor sit amet consectetur </h5>
-                        <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="card-text d-flex justify-content-between"><small class="text-muted">Posted at 3 mins ago</small> <small class="text-muted">Posted By Shrikant</small></p>
-                        <a href="#" class="btn btn-danger btn-sm px-4 d-inline-block rounded-pill">View More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Article Start -->
-                <div data-aos="fade-up" class="card shadow-sm border-0 rounded-0 mb-4 rounded-0"> 
-                  <div class="row g-0">
-                    <div class="col-md-5 h-100 bg-light align-items-center justify-content-center d-flex">
-                      <a href="#"><img class="rounded-0 h-100 img-fluid" src="images/placeholder_500x300.jpg" alt="Card image cap"></a>
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body text-start">
-                        <h5 class="card-title text-danger mb-1">Lorem ipsum dolor sit amet consectetur </h5>
-                        <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="card-text d-flex justify-content-between"><small class="text-muted">Posted at 3 mins ago</small> <small class="text-muted">Posted By Shrikant</small></p>
-                        <a href="#" class="btn btn-danger btn-sm px-4 d-inline-block rounded-pill">View More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <!-- Article Start -->
-                 <div data-aos="fade-up" class="card shadow-sm border-0 rounded-0 mb-4 rounded-0"> 
-                  <div class="row g-0">
-                    <div class="col-md-5 h-100 bg-light align-items-center justify-content-center d-flex">
-                      <a href="#"><img class="rounded-0 h-100 img-fluid" src="images/placeholder_500x300.jpg" alt="Card image cap"></a>
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body text-start">
-                        <h5 class="card-title text-danger mb-1">Lorem ipsum dolor sit amet consectetur </h5>
-                        <p class="card-text mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit dolor sit amet consectetur adipisicing elit.</p>
-                        <p class="card-text d-flex justify-content-between"><small class="text-muted">Posted at 3 mins ago</small> <small class="text-muted">Posted By Shrikant</small></p>
-                        <a href="#" class="btn btn-danger btn-sm px-4 d-inline-block rounded-pill">View More</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-            <!-- Pagination Start -->
-            <nav class=" text-center d-flex justify-content-center">
-              <ul class="pagination">
-                <li class="page-item"><a class="page-link text-danger" href="#">Previous</a></li>
-                <li class="page-item"><a class="page-link text-danger" href="#">1</a></li>
-                <li class="page-item"><a class="page-link text-danger" href="#">2</a></li>
-                <li class="page-item"><a class="page-link text-danger" href="#">3</a></li>
-                <li class="page-item"><a class="page-link text-danger" href="#">Next</a></li>
-              </ul>
-            </nav>
-
+          <div class="col-12 col-md-6">
+            <h1 class="fs-6">Welcome To Code Matra</h1>
+            <h2 class="fs-1">We are the professionals<br />Full stack web developers<br />Designers and content writers</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi repellat doloremque illo ducimus, culpa hic ex minima repudiandae voluptatib.</p>
+            <p><a class="rounded-0 btn btn-primary btn-lg" href="#">Contact Us</a></p>
           </div>
+          <div class="col-12 col-md-6">
+            <img class="img-fluid" src="images/placeholder_500x300.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <!-- Sidebar Start -->
-          <div class="col-12 col-xl-4 blog-sidebar">
+    <!-- About Section Start -->
+    <section id="about" class="text-dark w-100 py-5 d-flex justify-content-center align-items-center">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-6 order-md-last order-sm-first">
+            <h2 class="fs-6">About Code Matra</h2>
+            <h3 class="fs-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed laborum harum hic ab reiciendis voluptatibus obcaecati. Fugiat illum inventore ab similique, maiores temporibus! Quisquam laudantium rem, hic quod ad laboriosam.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed laborum harum hic ab reiciendis voluptatibus obcaecati. Fugiat illum inventore ab similique, maiores temporibus! Quisquam laudantium rem, hic quod ad laboriosam.</p>
+          </div>
+          <div class="col-12 col-md-6 order-md-first order-sm-last">
+            <img class="img-fluid" src="images/placeholder_500x300.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
-            <!-- Widget About Start -->
-            <div data-aos="fade-left" class="card shadow-sm border-0 mb-4">
-              <div class="card-body p-4">
-                <h3 class="bg-white border-0 pt-0 px-0 card-header fw-bold text-danger text-uppercase fs-6">About</h3>
-                <p class="fs-6 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iste excepturi corrupti corporis ullam omnis eaque dolor ducimus quod, voluptatum ipsa laborum natus, illum sapiente eveniet id aliquid provident enim?</p>
+    <!-- Services Section Start -->
+    <section id="services" class="text-dark bg-light w-100 py-3 d-flex justify-content-center align-items-center">
+      <div class="container py-5">
+        <h2 class="fs-1 mb-5 text-center">Our Services</h2>
+        <div class="row gx-1">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card text-center pt-2">
+              <img style="width: 100px;" class="img-fluid mx-auto rounded-circle mt-3 img-thumbnail" src="images/placeholder_500x300.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum dolor</h6>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae debitis quo aliquid sapiente corporis enim eveniet, assumenda soluta nesc</p>
               </div>
             </div>
-
-            <!-- Widget Recent Posts Start -->
-            <div data-aos="fade-left" class="card shadow-sm border-0 mb-4">
-              <div class="card-body p-4">
-                <h3 class="bg-white border-0 pt-0 px-0 card-header fw-bold text-danger text-uppercase fs-6">Recent Posts</h3>
-                <ul class="list-group list-group-flush mb-0">
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">Lorem ipsum dolor sit amet cons</a></li>
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">Lorem ipsum dolor sit amet cons</a></li>
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">Lorem ipsum dolor sit amet cons</a></li>
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">Lorem ipsum dolor sit amet cons</a></li>
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">Lorem ipsum dolor sit amet cons</a></li>
-                </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card text-center pt-2">
+              <img style="width: 100px;" class="img-fluid mx-auto rounded-circle mt-3 img-thumbnail" src="images/placeholder_500x300.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum dolor</h6>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae debitis quo aliquid sapiente corporis enim eveniet, assumenda soluta nesc</p>
               </div>
             </div>
-
-            <!-- Widget Categories Start -->
-            <div data-aos="fade-left" class="card shadow-sm border-0 mb-4">
-              <div class="card-body p-4">
-                <h3 class="bg-white border-0 pt-0 px-0 card-header fw-bold text-danger text-uppercase fs-6">Categories</h3>
-                <ul class="list-group list-group-flush mb-0">
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">HTML</a></li>
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">CSS</a></li>
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">React</a></li>
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">Angular</a></li>
-                  <li class="list-group-item"><a class="text-dark text-decoration-none" href="#">Python</a></li>
-                </ul>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="card text-center pt-2">
+              <img style="width: 100px;" class="img-fluid mx-auto rounded-circle mt-3 img-thumbnail" src="images/placeholder_500x300.jpg" alt="" />
+              <div class="card-body">
+                <h5 class="card-title">Lorem ipsum</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Lorem ipsum dolor</h6>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae debitis quo aliquid sapiente corporis enim eveniet, assumenda soluta nesc</p>
               </div>
             </div>
-            
           </div>
         </div>
       </div>
     </section>
 
     <!-- Footer Start -->
-    <footer class="bg-dark bg-gradient py-3 text-white">
+    <footer class="bg-dark bg-gradient pt-5 text-white">
       <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6">
-            Copyright &copy; 2021 - Code Matra. All Rights Reserved.
+        <div class="footer-part1 pb-5 border-bottom border-secondary">
+          <div class="row">
+            <div class="col-12 col-sm-6 col-md-3">
+              <h4 class="fs-5 mb-3">About Code Matra</h4>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing ee saepe exercitationem ducimus. Recusandae, tempora quod magnam laborum voluptas ipsa atque.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <h4 class="fs-5 mb-3">Skills</h4>
+              <ul class="list-group list-unstyled">
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 1</a></li>
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 2</a></li>
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 3</a></li>
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 4</a></li>
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 5</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <h4 class="fs-5 mb-3">Services</h4>
+              <ul class="list-group list-unstyled">
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 1</a></li>
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 2</a></li>
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 3</a></li>
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 4</a></li>
+                <li><a class="text-decoration-none text-white d-inline-block py-1" href="#">List Item 5</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-sm-6 col-md-3">
+              <h4 class="fs-5 mb-3">Contact Info</h4>
+              <p>Lorem ipsum dolor sit amem laborum voluptas ipsa atque.</p>
+              <p>Lorem ipsum dolor sit amem laborum voluptas ipsa atque.</p>
+              <p>Lorem ipsum dolor sit amem laborum voluptas ipsa atque.</p>
+            </div>
           </div>
-          <div class="col-12 col-md-6 text-end">
-            <!-- You are not allowed to remove this credit link form this free template -->
-            <!-- You can use it for personal use only -->
-            Designed by <a class="link-light" href="https://codematra.com/">Code Matra</a>
+        </div>
+        <div class="footer-part2 py-3">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              Copyright &copy; 2021 - Code Matra. All Rights Reserved.
+            </div>
+            <div class="col-12 col-md-6 text-end">
+              <!-- You are not allowed to remove this credit link form this free template -->
+              <!-- You can use it for personal use only -->
+              Designed by <a class="link-light" href="https://codematra.com/">Code Matra</a>
+            </div>
           </div>
         </div>
       </div>
     </footer>
 
     <!--Scripts-->
-    <script type="text/javascript" src="js/jquery.min.js"></script>   
-    <script type="text/javascript" src="js/popper.js"></script>   
-    <script type="text/javascript" src="js/bootstrap.min.js" ></script>   
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>  
-    <script type="text/javascript" src="js/cm-scripts.js" ></script>   
+    <script type="text/javascript" src="js/main.min.js"></script>   
+    <script type="text/javascript" src="js/custom.js" ></script>   
         
   </body>
 </html>
